@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 4;
+    padding: 0;
+  }
+ 
+  header {
+
+
+    background: color #940a0a; ;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+  }
+ 
+  h1 {
+    margin: 4;
+  }
+ 
+  nav {
+    background-color: #cc2828;
+    padding: 0.5rem;
+    text-align: center;
+  }
+ 
+  nav ul {
+    list-style: none;
+    margin: 4;
+    padding: 0;
+  }
+ 
+  nav li {
+    display: inline-block;
+    margin: 4 1rem;
+  }
+ 
+  nav a {
+    color: #38070b;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+ 
+  nav a:hover {
+    background-color: #555;
+  }
+ 
+  main {
+    padding: 2rem;
+  }
+ 
+  footer {
+    background-color: #290e0e;
+    color: #160505;
+    text-align: center;
+    padding: 1rem;
+  }
+ 
+  /* Estilos específicos para secciones */
+  section {
+    margin-bottom: 2rem;
+  }
+ 
+  h2 {
+    margin-top: 3;
+    border-bottom: 1px solid #240b0b;
+    padding-bottom: 0.5rem;
+  }
+ 
+  p {
+    margin-top: 4;
+  }
+ 
+  /* Estilos para la tabla */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 4 auto;
+  }
+ 
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+ 
+  th {
+    background-color: #f2f2f2;
+  }
+ 
+  tr:hover {
+      background-color: #f9f9f9;
+  }
